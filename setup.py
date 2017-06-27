@@ -26,7 +26,7 @@ test_requirements = [
 
 setup(
     name='convertor_sloth_to_opencv_haar_cascade',
-    version='0.1.0',
+    version='0.1.1',
     description="Python Boilerplate contains all the boilerplate you need to create a Python package.",
     long_description=readme + '\n\n' + history,
     author="Josef Novotny",
