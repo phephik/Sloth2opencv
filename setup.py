@@ -31,18 +31,18 @@ setup(
     long_description=readme + '\n\n' + history,
     author="Josef Novotny",
     author_email='josef.novotny96@seznam.cz',
-    url='https://github.com/phephik/convertor_sloth_to_opencv_haar_cascade',
-    packages=find_packages(include=['convertor_sloth_to_opencv_haar_cascade']),
+    url='https://github.com/phephik/sloth2opencv',
+    packages=find_packages(include=['sloth2opencv']),
     entry_points={
         'console_scripts': [
-            'convertor_sloth_to_opencv_haar_cascade=convertor_sloth_to_opencv_haar_cascade.cli:main'
+            'sloth2opencv=convertor_sloth_to_opencv_haar_cascade.cli:main'
         ]
     },
     include_package_data=True,
     install_requires=requirements,
     license="MIT license",
     zip_safe=False,
-    keywords='convertor_sloth_to_opencv_haar_cascade',
+    keywords='sloth2opencv',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
