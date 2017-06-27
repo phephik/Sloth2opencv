@@ -28,6 +28,7 @@ Python Boilerplate contains all the boilerplate you need to create a Python pack
 Features
 --------
 This script convert .json file from Sloth to .txt file used for Haar Cascade in OpenCV
+Generated .txt file: <name>.jpg <x> <y> <width> <heigh>
 --------
 
 * TODO
