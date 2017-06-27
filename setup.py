@@ -25,8 +25,8 @@ test_requirements = [
 ]
 
 setup(
-    name='convertor_sloth_to_opencv_haar_cascade',
-    version='0.1.0',
+    name='sloth2opencv',
+    version='0.1.1',
     description="Python Boilerplate contains all the boilerplate you need to create a Python package.",
     long_description=readme + '\n\n' + history,
     author="Josef Novotny",
@@ -35,7 +35,7 @@ setup(
     packages=find_packages(include=['sloth2opencv']),
     entry_points={
         'console_scripts': [
-            'sloth2opencv=convertor_sloth_to_opencv_haar_cascade.cli:main'
+            'sloth2opencv=sloth2opencv.cli:main'
         ]
     },
     include_package_data=True,
