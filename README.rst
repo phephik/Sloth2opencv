@@ -1,5 +1,5 @@
 ======================================
-convertor_sloth_to_opencv_haar_cascade
+Sloth to openCV convertor
 ======================================
 
 
